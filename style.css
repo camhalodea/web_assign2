@@ -1,0 +1,166 @@
+header, body, footer{
+	align:center;
+}
+
+body{
+	max-width:960px;
+	min-width:600px;
+	margin:0 auto;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header{
+	display:flex;
+}
+
+section{
+	float:left;
+	width:71%;
+}
+
+aside{
+	float:right;
+	width:25%;
+	padding:0 1%;
+	margin:0 1%;
+	background-color: rgb(238, 245, 223);
+}
+
+footer{
+  	height: 60px;
+	position: relative;
+	margin-top: -150px;
+	clear:both;
+	display:flex;
+}
+
+h3{
+	color: #669933;
+	font-size:1.4em;
+	text-decoration: none;
+}
+
+h5{
+	color:orange;
+}
+
+.text {
+    color: #333333;
+    font-size: 0.7em;
+    font-family:Arial, Verdana, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 0px;
+    line-height: 1.7;
+}
+
+header a{
+	left:0px;
+}
+
+#titleAir{
+	width:60%;
+	padding:20px;
+}
+/*top-right link buttons*/
+.navigator{
+	list-style-type:none;
+	width:40%;
+}
+
+a:link{
+	color:green;
+}
+
+a:hover{
+	color:orange;
+}
+
+a:visited{
+	color:red;
+}
+
+/*top-right link buttons arrange*/
+.leftCol{
+	display:inline-block;
+	width:180px;
+}
+/*black part*/
+.banner{
+	list-style-type: none;
+	display:flex;
+	flex-direction: row;
+	border-radius: 1em;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+/*banner*/
+.banner > :nth-child(2){
+	padding:1.2em 0.8em;
+	background-color: black;
+	color: white;
+}
+
+#timeSubtitle{
+	color:orange;
+	font-size:1em;
+}
+
+/*program of concert*/
+.program{
+	list-style-type: none;
+	margin:1px;
+}
+
+.order{
+	display:inline-block;
+	width:15%;
+	text-align:center;
+	background-color: rgb(238, 245, 223);
+}
+
+.track{
+	display:inline-block;
+	width:40%;
+	background-color: rgb(238, 245, 223);
+}
+
+.player{
+	display:inline-block;
+	width:30%;
+	background-color: rgb(238, 245, 223);
+}
+
+.note{
+	text-align: center;
+}
+
+.program > li:nth-child(3){
+	background-color: rgb(153, 204, 0);
+}
+
+.performers{
+	margin-bottom:15px;
+}
+.picture{
+	float:left;
+	width:30%;
+}
+
+.explanation{
+	float:right;
+	width:62%;
+}
+
+#bonus{
+	font-size:1.2em;
+}
+
+#bottomMenu{
+	width:45%;
+	text-align:right;
+	margin:auto;
+}
